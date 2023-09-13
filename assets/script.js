@@ -30,7 +30,7 @@ const todoList = [{
   
       <div id="stopwatchContainer">
           <div id="timerInterface">00:00:00</div>
-          <button id="btnStart" class="btnTimer">Start</button>
+          <button id="btnStart" class="btnTimer">Start ${i}</button>
           <button id="btnPause" class="btnTimer">Pause</button>
           <button id="btnReset" class="btnTimer">Reset</button>
       </div>
@@ -83,7 +83,7 @@ const todoList = [{
     const btnStart = document.querySelector("#btnStart");
     const btnPause = document.querySelector("#btnPause");
     const btnReset = document.querySelector("#btnReset");
-  
+    console.log(btnStart)
     let startTime = 0;
     let progressTime = 0;
     let currentTime = 0;
