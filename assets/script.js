@@ -100,12 +100,14 @@ const todoList = [{
         intervalId = setInterval(activateTimer, 75);
       }
     });
-    btnPause.addEventListener("click", () => {});
-        if(!paused) {
+    btnPause.addEventListener("click", () => {
+      if(!paused) {
           paused = true;
           progressTime = Date.now() - startTime;
           clearInterval(intervalId);
         }
+    });
+        
   
     btnReset.addEventListener("click", () => {
         paused = true;
