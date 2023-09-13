@@ -79,7 +79,7 @@ const todoList = [{
   };
   
   function stopwatch() {
-    const timerInterface = document.querySelector("#stopwatchContainer");
+    const timerInterface = document.querySelector("#timerInterface");
     const btnStart = document.querySelector("#btnStart");
     const btnPause = document.querySelector("#btnPause");
     const btnReset = document.querySelector("#btnReset");
