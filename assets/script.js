@@ -28,8 +28,8 @@ const todoList = [{
       const {listItems,dueDate} = objectTodo;
       const html = `
   
-      <div id="stopwatchContainer">
-          <div id="timerInterface">00:00:00</div>
+      <div class="stopwatchContainer">
+          <div class="timerInterface">00:00:00</div>
           <button id="btnStart" class="btnTimer">Start ${i}</button>
           <button id="btnPause" class="btnTimer">Pause</button>
           <button id="btnReset" class="btnTimer">Reset</button>
@@ -78,11 +78,11 @@ const todoList = [{
   
   };
   
-  function stopwatch() {
-    const timerInterface = document.querySelector("#timerInterface");
-    const btnStart = document.querySelector("#btnStart");
-    const btnPause = document.querySelector("#btnPause");
-    const btnReset = document.querySelector("#btnReset");
+  function stopwatch(i) {
+    const timerInterface = document.querySelector(".timerInterface");
+    const btnStart = document.querySelector(".btnTimer");
+    const btnPause = document.querySelector(".btnTimer");
+    const btnReset = document.querySelector(".btnTimer");
     console.log(btnStart)
     let startTime = 0;
     let progressTime = 0;
