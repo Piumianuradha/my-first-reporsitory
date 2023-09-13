@@ -1,0 +1,94 @@
+@media (min-width:500px){
+    body{
+      font-family: Roboto;
+       
+    }
+    }
+    .btn-secondary{
+      background-color: rgb(182, 118, 35);
+    }
+    
+    .todo-heading{
+      display: grid;
+      justify-items: center;
+      padding-bottom: 80px;
+       
+    }
+    .main-heading{
+      font-size: 60px;
+      color: grey;
+      
+    }
+    
+    .todo-block{
+      display: grid;
+      justify-items: center;
+      grid-row-gap: 20px;
+      width: 100%;
+      
+    }
+    
+    .todo-grid,
+    .todo-input-grid{
+      display: grid;
+      grid-template-columns: 200px 150px 100px 100px;
+      column-gap: 10px;
+      row-gap: 10px;
+      align-items: center;
+      
+    }
+    .list-input{
+      border-style: solid;
+      border-radius: 10px;
+      border-color: gray;
+    }
+    
+    .due-date-input{
+      border-style: solid;
+      border-radius: 10px;
+      border-color: gray;
+    }
+    
+    
+    
+    .todo-input-grid{
+      margin-bottom: 10px;
+      align-items: stretch;
+      
+    }
+    
+    .list-input,
+    .due-date-input{
+      font-size: 25px;
+      padding: 6px;
+    }
+    
+    .add-todo-button{
+      background-color:rgb(192, 133, 56);
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  
+    .js-timer-button {
+      background-color:rgb(160, 47, 47);
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      padding:10px 10px;
+      border-radius: 10px;
+    }
+    
+    .delete-todo-button{
+      background-color:rgb(160, 47, 47);
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      padding:10px 10px;
+      border-radius: 10px;
+    
+    }
